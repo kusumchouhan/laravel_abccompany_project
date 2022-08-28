@@ -1,0 +1,202 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Open+Sans:ital,wght@0,300;0,500;0,800;1,300;1,400&display=swap'); 
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+body {
+    text-align: center;
+}
+
+.title {
+                font-size: 95px;
+		font-family: "Aboreto", cursive;
+		font-style: normal;
+		font-weight: bold;
+		color: saddlebrown;
+                text-shadow: 3px 3px red;
+                
+            }
+
+            
+	    #baseimgone {
+		font-size: 200px;
+		color: #C7A30A;
+		}
+
+           .celtext
+           {
+                font-size: 55px;
+		color: #F5F55F;
+                font-style: italic;
+                margin-bottom:20px;
+           }
+
+            .links > a {
+                color: #636b6f;
+                padding: 0 25px;
+                font-size: 13px;
+                font-weight: 600;
+                letter-spacing: .1rem;
+                text-decoration: none;
+                text-transform: uppercase;
+            }
+
+            .m-b-md {
+                margin-bottom: 30px;
+            }
+
+
+
+.button {
+  display: inline-block;
+    background: #F8B88B;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 20px 80px;
+    border-radius: 5px;
+    box-shadow: 0px 17px 10px -10px rgb(0 0 0 / 40%);
+    cursor: pointer;
+    transition: all ease-in-out 300ms;
+    font-size: 25px;
+}
+.button:hover {
+  box-shadow: 0px 37px 20px -20px rgba(0, 0, 0, 0.2);
+  -webkit-transform: translate(0px, -10px) scale(1.2);
+          transform: translate(0px, -10px) scale(1.2);
+}
+
+
+
+.file-upload-btn:active {
+  border: 0;
+  transition: all .2s ease;
+}
+
+.file-upload-content {
+  display: none;
+  text-align: center;
+}
+
+.file-upload-input {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.image-upload-wrap {
+  margin-top: 20px;
+  border: 4px dashed #8b4513;
+  position: relative;
+}
+
+.image-dropping,
+.image-upload-wrap:hover {
+  background-color: #F8B88B;
+  border: 4px dashed #C7A30A;
+}
+
+.image-title-wrap {
+  padding: 0 15px 15px 15px;
+  color: #fff;
+}
+
+.drag-text {
+  text-align: center;
+}
+
+.drag-text h3 {
+  font-weight: 100;
+  text-transform: uppercase;
+  color: #C7A30A;
+  padding: 60px 0;
+}
+
+.file-upload-image {
+  max-height: 200px;
+  max-width: 200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.remove-image {
+  width: 200px;
+  margin: 0;
+  color: #fff;
+  background: #F8B88B;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  border-bottom: 4px solid #b02818;
+  transition: all .2s ease;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.remove-image:hover {
+  background: #F8B88B;
+  color: #ffffff;
+  transition: all .2s ease;
+  cursor: pointer;
+}
+
+.remove-image:active {
+  border: 0;
+  transition: all .2s ease;
+}
+
+.voucher_div
+{
+    background: saddlebrown;
+    border: 3px solid #C7A30A;
+    box-shadow: 4px 3px 7px #c7a30a;
+    color: #F5F5F5;
+    font-size: 30px;
+}
+
+.vou_title
+{
+   font-size: 40px;
+   font-family: "Aboreto", cursive;
+   font-style: normal;
+   font-weight: bold;
+   color: #F5F5F5;
+   font-style: italic;
+   text-shadow: 2px 2px;
+}
+
+
+.navbar-light .navbar-brand {
+    font-family: "Aboreto", cursive;
+    text-shadow: 2px 2px red;
+    color: lightcyan;
+}
+
+
+#divCounter
+{
+    font-family: "Aboreto", cursive;
+    border: 4px double #8b4513;
+    font-size: 40px;
+    padding-bottom: 10px;
+    border-radius: 9px;
+    color: #8B4528;
+
+}
+
+
+
+
+
+
